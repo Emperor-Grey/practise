@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "isItAContract",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"withdraw_pattern.sol": "Victim"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"withdraw_pattern.sol": {
+			"keccak256": "0xaf9994005e2778df4112c065885611577ef19476bf89db252566d6c47f8846ca",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6bab34113218176cbe568ddc18be91341488cb63c257778430d855bf240b6acd",
+				"dweb:/ipfs/QmZPvgi4rx9TwdGMqUATe8x9vgfmgs5sykq6kATc5DoDFh"
+			]
+		}
+	},
+	"version": 1
+}

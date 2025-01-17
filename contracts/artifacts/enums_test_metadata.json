@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getDefaultSize",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getSize",
+				"outputs": [
+					{
+						"internalType": "enum enums_test.Size",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum enums_test.Size",
+						"name": "_s",
+						"type": "uint8"
+					}
+				],
+				"name": "setSize",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/enums_test.sol": "enums_test"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/enums_test.sol": {
+			"keccak256": "0x93d86c5554941be53d0d5d2689dac1ecafe7f331394591f0a2e080afe68f689d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bf2ce22e79651bab1efbb5c556e664ad8757d8bdd36f8a4bfd641994e57b69f1",
+				"dweb:/ipfs/Qme7M7qBoeYENqXoKnriBApsnVqWMs8FkxcC6Nj3YYFdX1"
+			]
+		}
+	},
+	"version": 1
+}

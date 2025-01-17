@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getTotalSum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/variables.sol": "variables"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/variables.sol": {
+			"keccak256": "0xb3db94598ce4ec1ea1c419c2c3256359d8d7ec019d95a17db8ffd8a69309fcbf",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://203b031499a855af9ef8914a0b8eaebc2f135deac19cb0c606905e2857d053af",
+				"dweb:/ipfs/QmScpTzGFvJTKt9pkUpesYg3S1rQr9Z3bxAxJoeaWw9Sqj"
+			]
+		}
+	},
+	"version": 1
+}

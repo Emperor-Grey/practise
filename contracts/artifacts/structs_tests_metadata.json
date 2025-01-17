@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getMovie",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "title",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "movieId",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct structs_tests.Movie",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setMovie",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/structs_test.sol": "structs_tests"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/structs_test.sol": {
+			"keccak256": "0x462763efec1edbdd5662a82a9225f572d615045a1c7a4f75408a02379eb54567",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a97d6793025dfa36068ea47632108649dbbd3de4dcf99db23aec391a60ebab4e",
+				"dweb:/ipfs/QmRMA1VoNtX8VPeShKnxUfjBmRmxWAEpUXGiAfjRfXRs1t"
+			]
+		}
+	},
+	"version": 1
+}

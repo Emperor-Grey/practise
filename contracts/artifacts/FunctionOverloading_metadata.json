@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "x",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "x",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "isSomething",
+						"type": "bool"
+					}
+				],
+				"name": "x",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/function_overloading.sol": "FunctionOverloading"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/function_overloading.sol": {
+			"keccak256": "0xf4ae2ca09b148536144fef5a25b3edf461ec8e9403eed5e40fb4caeff1966443",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://61219a45b626087458aae8fba6ada1fb063caf0945dac7fafbfc64c30e914b53",
+				"dweb:/ipfs/QmdJ3uE29KJhEn7pK3rfn9sf8P2xcuRfKZy2a5RUUXatET"
+			]
+		}
+	},
+	"version": 1
+}

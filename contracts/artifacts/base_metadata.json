@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_data",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getData",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/contructer_test.sol": "base"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/contructer_test.sol": {
+			"keccak256": "0x2d2c28d3e5f097327cedb3d9df8f07a716b21e8a464314cc8f98ecba8fb53032",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5a78f3382149cda78cfe2b023aa8feeb2159f362375ef291cd8677efa1e3f39e",
+				"dweb:/ipfs/Qmdp5jtdYUNvdj9uKJRNhE4cc2jHmC4EL8KHsqPK7Up2rE"
+			]
+		}
+	},
+	"version": 1
+}
