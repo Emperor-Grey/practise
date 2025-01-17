@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "recipient",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "transfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"uniswap.sol": "Token"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"uniswap.sol": {
+			"keccak256": "0xb5e89ffefb49cef38fec5ab17a0fe457654786e59663ae0bfea72a32a1dfa8b5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://10cdeea9b487d2d86d053874aed9fe6de7ed41cd0ada3f51e5c4dded6e999ac9",
+				"dweb:/ipfs/QmfPSrc5CdqWbJrNunZpnLtozxVVZjJKVAeH3o3TUcgdWj"
+			]
+		}
+	},
+	"version": 1
+}
