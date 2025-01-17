@@ -7,17 +7,22 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getReserveTokens",
+				"name": "getReserves",
 				"outputs": [
 					{
 						"internalType": "uint112",
-						"name": "",
+						"name": "reserve0",
 						"type": "uint112"
 					},
 					{
 						"internalType": "uint112",
-						"name": "",
+						"name": "reserve1",
 						"type": "uint112"
+					},
+					{
+						"internalType": "uint32",
+						"name": "blockTimestampLast",
+						"type": "uint32"
 					}
 				],
 				"stateMutability": "view",
@@ -37,7 +42,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"uniswap.sol": "UniSwap"
+			"uniswap.sol": "UniswapV2Pair"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},

@@ -6,18 +6,24 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "getReserveTokens",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "uint112",
-						"name": "",
-						"type": "uint112"
+						"internalType": "address",
+						"name": "tokenA",
+						"type": "address"
 					},
 					{
-						"internalType": "uint112",
-						"name": "",
-						"type": "uint112"
+						"internalType": "address",
+						"name": "tokenB",
+						"type": "address"
+					}
+				],
+				"name": "getPair",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "pair",
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -37,7 +43,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"uniswap.sol": "UniSwap"
+			"uniswap.sol": "UniswapV2Factory"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
